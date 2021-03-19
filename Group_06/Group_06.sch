@@ -5230,7 +5230,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R10" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="U$2" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET_3" device=""/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value=" "/>
-<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -5238,10 +5237,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="223.52" y="35.56" size="2.54" layer="97">I2C Connectors</text>
+<text x="226.06" y="121.92" size="2.54" layer="97">4-Channel I2C</text>
+<text x="71.12" y="139.7" size="2.54" layer="97">Power</text>
+<text x="35.56" y="101.6" size="2.54" layer="97">Light Sensor</text>
+<text x="17.78" y="50.8" size="2.54" layer="97">Analog Temperature Sensor</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -5363,9 +5371,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="92.456" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="92.964" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="-16.78295625" y="138.935128125" smashed="yes">
-<attribute name="VALUE" x="-16.78295625" y="138.681128125" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="GND7" gate="1" x="93.98" y="30.48" smashed="yes">
 <attribute name="VALUE" x="93.98" y="27.686" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -5388,6 +5393,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J3" gate="G$1" x="157.48" y="38.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="167.386" y="33.02" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="146.812" y="33.02" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="J4" gate="G$1" x="220.98" y="99.06" smashed="yes">
+<attribute name="VALUE" x="218.44" y="94.234" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="218.44" y="104.648" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J5" gate="G$1" x="220.98" y="81.28" smashed="yes">
+<attribute name="VALUE" x="218.44" y="76.454" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="218.44" y="86.868" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J6" gate="G$1" x="220.98" y="63.5" smashed="yes">
+<attribute name="VALUE" x="218.44" y="58.674" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="218.44" y="69.088" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J7" gate="G$1" x="220.98" y="45.72" smashed="yes">
+<attribute name="VALUE" x="218.44" y="40.894" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="218.44" y="51.308" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -5598,6 +5619,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="212.09" y1="156.21" x2="212.09" y2="158.75" width="0.1524" layer="91"/>
 <label x="211.074" y="158.369" size="1.4224" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<label x="236.22" y="101.6" size="1.4224" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SDA_0" class="0">
 <segment>
@@ -5606,6 +5632,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="153.67" x2="219.71" y2="153.67" width="0.1524" layer="91"/>
 <wire x1="219.71" y1="153.67" x2="219.71" y2="158.75" width="0.1524" layer="91"/>
 <label x="211.455" y="155.702" size="1.4224" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="99.06" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
+<label x="236.22" y="99.06" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SCL_1" class="0">
@@ -5616,6 +5647,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="231.14" y1="148.59" x2="231.14" y2="153.67" width="0.1524" layer="91"/>
 <label x="211.836" y="150.622" size="1.4224" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
+<label x="236.22" y="83.82" size="1.4224" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SDA_1" class="0">
 <segment>
@@ -5624,6 +5660,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="146.05" x2="237.49" y2="146.05" width="0.1524" layer="91"/>
 <wire x1="237.49" y1="146.05" x2="237.49" y2="153.67" width="0.1524" layer="91"/>
 <label x="211.582" y="148.082" size="1.4224" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+<label x="236.22" y="81.28" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SCL_2" class="0">
@@ -5634,6 +5675,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="243.84" y1="140.97" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
 <label x="212.09" y="143.256" size="1.4224" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="66.04" x2="236.22" y2="66.04" width="0.1524" layer="91"/>
+<label x="236.22" y="66.04" size="1.4224" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SDA_2" class="0">
 <segment>
@@ -5642,6 +5688,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="138.43" x2="250.19" y2="138.43" width="0.1524" layer="91"/>
 <wire x1="250.19" y1="138.43" x2="250.19" y2="144.78" width="0.1524" layer="91"/>
 <label x="211.963" y="140.462" size="1.4224" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
+<label x="236.22" y="63.5" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SCL_3" class="0">
@@ -5652,6 +5703,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="257.81" y1="133.35" x2="257.81" y2="137.16" width="0.1524" layer="91"/>
 <label x="212.598" y="135.382" size="1.4224" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="236.22" y="48.26" size="1.4224" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="I2C_SDA_3" class="0">
 <segment>
@@ -5660,6 +5716,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="200.66" y1="130.81" x2="265.43" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="130.81" x2="265.43" y2="137.16" width="0.1524" layer="91"/>
 <label x="212.725" y="132.715" size="1.4224" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="45.72" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
+<label x="236.22" y="45.72" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">

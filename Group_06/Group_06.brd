@@ -1029,6 +1029,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-52.07" y="-83.693" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="-52.07" y="-87.376" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
+<element name="J4" library="SparkFun-Connectors" package="1X02" value="" x="-50.8" y="-88.9" smashed="yes">
+<attribute name="NAME" x="-52.07" y="-87.503" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="-52.07" y="-90.932" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J5" library="SparkFun-Connectors" package="1X02" value="" x="-50.8" y="-92.71" smashed="yes">
+<attribute name="NAME" x="-52.07" y="-91.313" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="-52.07" y="-94.742" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J6" library="SparkFun-Connectors" package="1X02" value="" x="-50.8" y="-96.52" smashed="yes">
+<attribute name="NAME" x="-52.07" y="-95.123" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="-52.07" y="-98.552" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J7" library="SparkFun-Connectors" package="1X02" value="" x="-50.8" y="-100.33" smashed="yes">
+<attribute name="NAME" x="-52.07" y="-98.933" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="-52.07" y="-102.362" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1118,41 +1134,57 @@ design rules under a new name.</description>
 <signal name="I2C_SCL_0">
 <contactref element="U$1" pad="5"/>
 <contactref element="R3" pad="1"/>
+<contactref element="J4" pad="2"/>
+<wire x1="-51.65" y1="-19.05" x2="-48.26" y2="-88.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.43" y1="-11.755" x2="-51.65" y2="-19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA_0">
 <contactref element="U$1" pad="4"/>
 <contactref element="R4" pad="1"/>
+<contactref element="J4" pad="1"/>
+<wire x1="-51.65" y1="-22.86" x2="-50.8" y2="-88.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.43" y1="-11.105" x2="-51.65" y2="-22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL_1">
 <contactref element="U$1" pad="7"/>
 <contactref element="R5" pad="1"/>
+<contactref element="J5" pad="2"/>
+<wire x1="-51.65" y1="-26.67" x2="-48.26" y2="-92.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.43" y1="-13.055" x2="-51.65" y2="-26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA_1">
 <contactref element="U$1" pad="6"/>
 <contactref element="R6" pad="1"/>
+<contactref element="J5" pad="1"/>
+<wire x1="-51.65" y1="-30.48" x2="-50.8" y2="-92.71" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.43" y1="-12.405" x2="-51.65" y2="-30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL_2">
 <contactref element="U$1" pad="10"/>
 <contactref element="R7" pad="1"/>
+<contactref element="J6" pad="2"/>
+<wire x1="-51.65" y1="-34.29" x2="-48.26" y2="-96.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.63" y1="-13.055" x2="-51.65" y2="-34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA_2">
 <contactref element="U$1" pad="9"/>
 <contactref element="R8" pad="1"/>
+<contactref element="J6" pad="1"/>
+<wire x1="-51.65" y1="-38.1" x2="-50.8" y2="-96.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.63" y1="-13.705" x2="-51.65" y2="-38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL_3">
 <contactref element="U$1" pad="12"/>
 <contactref element="R9" pad="1"/>
+<contactref element="J7" pad="2"/>
+<wire x1="-51.65" y1="-41.91" x2="-48.26" y2="-100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.63" y1="-11.755" x2="-51.65" y2="-41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA_3">
 <contactref element="U$1" pad="11"/>
 <contactref element="R10" pad="1"/>
+<contactref element="J7" pad="1"/>
+<wire x1="-51.65" y1="-45.72" x2="-50.8" y2="-100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.63" y1="-12.405" x2="-51.65" y2="-45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA">
