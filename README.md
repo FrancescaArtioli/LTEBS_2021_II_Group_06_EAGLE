@@ -9,13 +9,10 @@ The PCB embeds the developement kit for PSoC-5LP (namely CY8CKIT-059_TARGET) tog
 
 	PHOTOCELLPTH - PHOTOCELL
 
-- Analog Temperature Sensor
+- 	Analog Temperature Sensor
 
 	TMP36GT9 - TO-92
   
-### Setup
-The setup for testing purposes is based on a custom PCB. The PCB is powered through a 12V power jack, and a voltage regulator stabilizes the supply to 5V. I2C connectors and a quad bidirectional translating switch controlled via the I2C bus are embedded on the PCB.
-
 ### Libraries 
 
 - SparkFun-Eagle-Libraries, downloaded from https://github.com/sparkfun/SparkFun-Eagle-Libraries
@@ -33,5 +30,10 @@ The setup for testing purposes is based on a custom PCB. The PCB is powered thro
 -	Schematic is divided into two pages.
 
 ### Notes on Group_06.brd
+-	The trace dimension was set to 10 mils for all traces of the PCB, except for those connecting to the mux which were set to 8 mils to avoid clearance errors.
+-	Final board dimensions are : 60.83 mm x 72.39 mm
 
 ### Notes on Group_06.dru
+-	We followed the requirements from the MDSrl.
+-	The minimum "Drill/Hole distance" was set to 20 mils. This was due to the choice of the annular ring width for pads, that was set to 10mils as required from MDSrl.
+-	mask?
