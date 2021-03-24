@@ -5903,7 +5903,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-27.94" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
 <text x="-9.398" y="30.226" size="3.81" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-33.02" size="3.81" layer="95">&gt;VALUE</text>
+<text x="-10.16" y="-33.02" size="3.81" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5962,7 +5962,7 @@ Available packages:
 <deviceset name="TMUX1208">
 <description>&lt;h3&gt;TMUX1208&lt;/h3&gt;
 
-The TMUX1208 is general purpose complementary metal-oxide semiconductor (CMOS) multiplexers (MUX). The TMUX1208 offers 8:1 singleended channels.
+The TMUX1208 is general purpose complementary metal-oxide semiconductor (CMOS) multiplexers (MUX). The TMUX1208 offers 8:1 single ended channels.
 Wide operating supply of 1.08 V to 5.5 V allows for
 use in a broad array of applications from personal
 electronics to building automation applications. The
