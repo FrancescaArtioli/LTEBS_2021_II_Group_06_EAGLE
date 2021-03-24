@@ -5843,21 +5843,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="14" x="0.2" y="1.2" dx="0.2" dy="0.6" layer="1"/>
 <smd name="15" x="-0.2" y="1.2" dx="0.2" dy="0.6" layer="1"/>
 <smd name="16" x="-0.6" y="1.2" dx="0.2" dy="0.6" layer="1"/>
-<circle x="-0.65" y="1.05" radius="0.05" width="0" layer="21"/>
+<circle x="-0.3" y="0.6" radius="0.05" width="0" layer="21"/>
 <wire x1="-0.9" y1="-1.3" x2="-0.9" y2="1.3" width="0.127" layer="51"/>
 <wire x1="-0.9" y1="1.3" x2="0.9" y2="1.3" width="0.127" layer="51"/>
 <wire x1="0.9" y1="1.3" x2="0.9" y2="-1.3" width="0.127" layer="51"/>
 <wire x1="0.9" y1="-1.3" x2="-0.9" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-0.9" y1="0.8" x2="-0.9" y2="1.3" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="1.3" x2="-0.8" y2="1.3" width="0.127" layer="21"/>
-<wire x1="0.8" y1="1.3" x2="0.9" y2="1.3" width="0.127" layer="21"/>
-<wire x1="0.9" y1="1.3" x2="0.9" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.9" y1="-0.8" x2="0.9" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="0.9" y1="-1.3" x2="0.8" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="-0.8" x2="-0.9" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="-1.3" x2="-0.8" y2="-1.3" width="0.127" layer="21"/>
 <text x="-1" y="1.6" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.05" y="-2" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.95" y1="1.3" x2="-0.95" y2="0.95" width="0.02" layer="21"/>
+<wire x1="0.95" y1="1.3" x2="0.95" y2="0.95" width="0.02" layer="21"/>
+<wire x1="-0.95" y1="-0.95" x2="-0.95" y2="-1.3" width="0.02" layer="21"/>
+<wire x1="0.95" y1="-0.95" x2="0.95" y2="-1.3" width="0.02" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5907,7 +5903,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-27.94" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
 <text x="-9.398" y="30.226" size="3.81" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-33.02" size="3.81" layer="95">&gt;VALUE</text>
+<text x="-10.16" y="-33.02" size="3.81" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5966,7 +5962,7 @@ Available packages:
 <deviceset name="TMUX1208">
 <description>&lt;h3&gt;TMUX1208&lt;/h3&gt;
 
-The TMUX1208 is general purpose complementary metal-oxide semiconductor (CMOS) multiplexers (MUX). The TMUX1208 offers 8:1 singleended channels.
+The TMUX1208 is general purpose complementary metal-oxide semiconductor (CMOS) multiplexers (MUX). The TMUX1208 offers 8:1 single ended channels.
 Wide operating supply of 1.08 V to 5.5 V allows for
 use in a broad array of applications from personal
 electronics to building automation applications. The
