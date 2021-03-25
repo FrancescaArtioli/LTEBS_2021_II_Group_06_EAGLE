@@ -25,6 +25,7 @@ The PCB embeds the developement kit for PSoC-5LP (namely CY8CKIT-059_TARGET) tog
 -	We have decided to design the pads for both components TMUX1208 (package QFN-16) and TCA9546A (package TSSOP-16) with a rectangular shape. 
 -	Regarding package dimension of component TMUX1208 we have decided to keep the middle value between maximum and minimum dimension (1.80mmx2.60mm).
 -	Regarding package dimension of component TCA9546A we have decided to keep the middle value between maximum and minimum dimension (4.4mmx5mm).
+-	In both the components' footprint we have added the profile silkscreen in a way that it wouldn't provide a stop-mask error in the DRC (even if we have not considered stop mask error when running the DRC file, as suggested). 
 
 ### Notes on Group_06.sch 
 -	Schematic is divided into two pages.
@@ -35,5 +36,4 @@ The PCB embeds the developement kit for PSoC-5LP (namely CY8CKIT-059_TARGET) tog
 
 ### Notes on Group_06.dru
 -	We followed the requirements from the MDSrl.
--	The minimum "Drill/Hole distance" was set to 20 mils. This was due to the choice of the annular ring width for pads, that was set to 10mils as required from MDSrl.
--	mask?
+-	The "check stop mask" option in the MISC section was not selected, as suggested. 
