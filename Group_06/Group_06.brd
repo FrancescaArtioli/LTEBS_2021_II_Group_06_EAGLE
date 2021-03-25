@@ -202,7 +202,7 @@
 <text x="13.843" y="28.448" size="1.6764" layer="21" font="vector" ratio="15">DEVELOPMENT</text>
 <text x="13.843" y="25.908" size="1.6764" layer="21" font="vector" ratio="15">KIT PSOC-5LP</text>
 <text x="11.811" y="7.747" size="0.6096" layer="21" font="vector" ratio="15">LIGHT SENSOR</text>
-<text x="22.098" y="11.811" size="0.6096" layer="21" font="vector" ratio="15">TEMPERATURE
+<text x="23.114" y="11.811" size="0.6096" layer="21" font="vector" ratio="15">TEMPERATURE
 SENSOR</text>
 <text x="61.468" y="3.937" size="0.6096" layer="21" font="vector" ratio="15">POWER</text>
 <text x="29.591" y="12.065" size="0.6096" layer="21" font="vector" ratio="15">12V</text>
@@ -1199,7 +1199,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.29" y="55.626" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U$3" library="Group_06_Library" package="QFN-16" value="TMUX1208RSV" x="15.494" y="49.403" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.161" y="51.384" size="0.6096" layer="25"/>
+<attribute name="NAME" x="15.891" y="52.654" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="13.494" y="50.453" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="0.1uF" x="25.4" y="46.736" smashed="yes" rot="R180">
@@ -1268,9 +1268,8 @@ design rules under a new name.</description>
 <signal name="TEMP_OUT">
 <contactref element="U1" pad="2"/>
 <contactref element="U$2" pad="43"/>
-<wire x1="22.733" y1="8.636" x2="20.32" y2="11.049" width="0.254" layer="1"/>
-<wire x1="20.32" y1="11.049" x2="20.32" y2="12.065" width="0.254" layer="1"/>
-<wire x1="20.32" y1="12.065" x2="27.686" y2="19.431" width="0.254" layer="1"/>
+<wire x1="22.733" y1="8.636" x2="22.733" y2="14.478" width="0.254" layer="1"/>
+<wire x1="22.733" y1="14.478" x2="27.686" y2="19.431" width="0.254" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="U1" pad="1"/>
