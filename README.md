@@ -1,4 +1,6 @@
 # LTEBS_2021_II_Group_06_EAGLE
+Authors: Artioli Francesca, Parrella Giovanni
+
 This repository contains a complete Eagle project of a custom PCB, designed in order to ease the assessment of the performance of the PSoC-5LP microcontroller. 
 In particular, the repository contains the schematic (.sch), the board (.brd) and the design-rule-check file (.dru) based on technical requirements by MDSrl. 
 
@@ -19,7 +21,7 @@ The PCB embeds the developement kit for PSoC-5LP (namely CY8CKIT-059_TARGET) tog
 
 - CY8KIT-059.lbr, downloaded from https://github.com/dado93/Cypress-Eagle
 
-- Group_06_Library.lbr, a custom library for TMUX1208 and TCA9546A.
+- Group_06_Library.lbr, a custom library for TMUX1208 and TCA9546A from Texas Instruments.
 
 ### Notes on Group_06_Library.lbr
 -	We have decided to design the pads for both components TMUX1208 (package QFN-16) and TCA9546A (package TSSOP-16) with a rectangular shape. 
