@@ -5821,8 +5821,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.127" layer="51"/>
 <circle x="-1.7" y="2" radius="0.111803125" width="0" layer="21"/>
-<wire x1="-1.796" y1="2.5" x2="1.796" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.796" y1="-2.5" x2="1.796" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.796" y1="2.66" x2="1.796" y2="2.66" width="0.1524" layer="21"/>
+<wire x1="-1.796" y1="-2.65" x2="1.796" y2="-2.65" width="0.127" layer="21"/>
 <text x="-3.1" y="3.25" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.3" y="-4.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -5843,17 +5843,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="14" x="0.2" y="1.2" dx="0.2" dy="0.6" layer="1"/>
 <smd name="15" x="-0.2" y="1.2" dx="0.2" dy="0.6" layer="1"/>
 <smd name="16" x="-0.6" y="1.2" dx="0.2" dy="0.6" layer="1"/>
-<circle x="-0.3" y="0.6" radius="0.05" width="0" layer="21"/>
+<circle x="-1.45" y="0.6" radius="0.05" width="0" layer="21"/>
 <wire x1="-0.9" y1="-1.3" x2="-0.9" y2="1.3" width="0.127" layer="51"/>
 <wire x1="-0.9" y1="1.3" x2="0.9" y2="1.3" width="0.127" layer="51"/>
 <wire x1="0.9" y1="1.3" x2="0.9" y2="-1.3" width="0.127" layer="51"/>
 <wire x1="0.9" y1="-1.3" x2="-0.9" y2="-1.3" width="0.127" layer="51"/>
 <text x="-1" y="1.6" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.05" y="-2" size="0.4064" layer="27">&gt;VALUE</text>
-<wire x1="-0.95" y1="1.3" x2="-0.95" y2="0.95" width="0.02" layer="21"/>
-<wire x1="0.95" y1="1.3" x2="0.95" y2="0.95" width="0.02" layer="21"/>
-<wire x1="-0.95" y1="-0.95" x2="-0.95" y2="-1.3" width="0.02" layer="21"/>
-<wire x1="0.95" y1="-0.95" x2="0.95" y2="-1.3" width="0.02" layer="21"/>
+<wire x1="1.05" y1="1.45" x2="1.05" y2="1" width="0.1524" layer="21"/>
+<wire x1="1.05" y1="-1.45" x2="1.05" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-1.05" y1="-1.45" x2="-1.05" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-1.45" x2="-1.05" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="1" y1="-1.45" x2="1.05" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="1" y1="1.45" x2="1.05" y2="1.45" width="0.1524" layer="21"/>
+<wire x1="-1.05" y1="1.45" x2="-1.05" y2="1" width="0.1524" layer="21"/>
+<wire x1="-1.05" y1="1.45" x2="-1" y2="1.45" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
