@@ -199,8 +199,8 @@
 <text x="27.178" y="59.436" size="0.6096" layer="21" font="vector" ratio="15">+5V</text>
 <text x="29.718" y="59.436" size="0.6096" layer="21" font="vector" ratio="15">GND</text>
 <text x="2.794" y="44.577" size="0.6096" layer="21" font="vector" ratio="15">MULTIPLEXER</text>
-<text x="13.843" y="28.448" size="1.6764" layer="21" font="vector" ratio="15">DEVELOPMENT</text>
-<text x="13.843" y="25.908" size="1.6764" layer="21" font="vector" ratio="15">KIT PSOC-5LP</text>
+<text x="10.16" y="26.67" size="1.6764" layer="21" font="vector" ratio="15">DEVELOPMENT</text>
+<text x="10.033" y="24.003" size="1.6764" layer="21" font="vector" ratio="15">KIT PSOC-5LP</text>
 <text x="11.811" y="7.747" size="0.6096" layer="21" font="vector" ratio="15">LIGHT SENSOR</text>
 <text x="23.114" y="11.811" size="0.6096" layer="21" font="vector" ratio="15">TEMPERATURE
 SENSOR</text>
